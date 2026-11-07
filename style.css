@@ -1,0 +1,79 @@
+/* 1. Element selector: styles every <body> */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Element selector: styles the <header> */
+header {
+  background-color: #006400;   /* dark green */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  width: 160px;
+}
+
+/* 3. Class selector: note the dot (.) */
+.tagline {
+  font-style: italic;
+  color: #ffd700;               /* gold */
+}
+
+/* 4. Id selector, grouped with the other sections (Task B3) */
+#about, #menu, #hours, #contact {
+  background-color: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Task B4: headings */
+h2 {
+  color: #006400;
+  border-bottom: 2px solid #006400;
+  padding-bottom: 5px;
+}
+
+/* Task B1: the menu table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #006400;
+  color: white;
+}
+
+/* Task B5: WhatsApp button */
+.whatsapp {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.whatsapp:hover {
+  background-color: #128c4a;
+}
+
+/* Task B2: footer */
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
